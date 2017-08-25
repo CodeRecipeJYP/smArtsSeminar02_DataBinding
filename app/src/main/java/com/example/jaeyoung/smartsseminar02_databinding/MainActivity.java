@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
                         new ArrayList<String>()
                 )
         );
+        mainViewModel.attachViews(binding);
     }
 
 }
