@@ -27,6 +27,7 @@
             style="?android:attr/progressBarStyleSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:visibility="@{mainviewmodel.mProgressbarStatus}"
             android:layout_weight="1" />
     </LinearLayout>
 </layout>
